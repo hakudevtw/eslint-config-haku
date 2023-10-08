@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-haku",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
-  "main": "config",
+  "main": "configs/index.js",
   "type": "commonjs",
   "scripts": {},
   "keywords": [
