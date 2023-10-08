@@ -6,8 +6,8 @@ module.exports = {
   extends: [
     "airbnb",
     "airbnb-typescript",
-    "../lib/base.js",
-    "../lib/redux.js",
+    "./lib/base.js",
+    "./lib/redux.js",
     "plugin:prettier/recommended",
   ],
   rules: {
