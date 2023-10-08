@@ -3,17 +3,18 @@
 ## 🫐 Packages
 
 - `eslint-config-haku` (base config)
-  - extend with `haku`
   - extends config
+    - `eslint:recommended`
+    - `plugin:@typescript-eslint/recommended`
+    - `plugin:import/recommended`
+    - `plugin:import/typescript`
     - `plugin:prettier/recommended`
 - `eslint-config-haku/react` (react config)
-  - extend with `haku/react`
   - extends config
     - `haku`
     - `airbnb`
     - `airbnb-typescript`
 - `eslint-config-haku/next` (nextJS config)
-  - extend with `haku/next`
   - extends config
     - `haku/react`
     - `next/core-web-vitals`
