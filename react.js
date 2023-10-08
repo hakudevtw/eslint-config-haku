@@ -3,13 +3,7 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: [
-    "airbnb",
-    "airbnb-typescript",
-    "./lib/base.js",
-    "./lib/redux.js",
-    "plugin:prettier/recommended",
-  ],
+  extends: ["airbnb", "airbnb-typescript", "./lib/base.js", "plugin:prettier/recommended"],
   rules: {
     "react/react-in-jsx-scope": "off",
     "no-restricted-imports": [

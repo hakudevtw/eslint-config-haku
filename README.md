@@ -1,6 +1,6 @@
 # 🍃 Haku's Eslint Config
 
-## ✅ Packages
+## 🫐 Packages
 
 - `eslint-config-haku` (base config)
   - extend with `haku`
@@ -17,7 +17,7 @@
   - extends config
     - `haku/react`
 
-## ✅ Setup Project
+## 🦴 Setup Project
 
 ### Installation
 
@@ -33,6 +33,8 @@
   },
   ```
 
+### VSCode
+
 - setup to auto fix lint problems on save
   ```json
   # .vscode/config.json
@@ -40,4 +42,21 @@
     "editor.codeActionsOnSave": { "source.fixAll": true },
     "editor.formatOnSave": false
   }
+  ```
+
+## 🥑 Recipes
+
+### Redux
+
+- 參考 https://redux.js.org/usage/usage-with-typescript#define-typed-hooks
+- add rule to restrict using custom `useAppSelector` and `useAppDispatch` for typing
+  ```javascript
+  "@typescript-eslint/no-restricted-imports": [
+    "warn",
+    {
+      name: "react-redux",
+      importNames: ["useSelector", "useDispatch"],
+      message: "Use typed hooks `useAppDispatch` and `useAppSelector` instead.",
+    },
+  ],
   ```
