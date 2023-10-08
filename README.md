@@ -24,6 +24,13 @@
 ### Installation
 
 - Install `eslint-config-haku`
+
+  ```bash
+  npm i --save-dev eslint-config-haku
+  yarn add -D eslint-config-haku
+  pnpm add -D eslint-config-haku
+  ```
+
 - Extend the config in `.eslintrc.js`
 
   ```javascript
