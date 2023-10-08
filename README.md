@@ -16,6 +16,7 @@
   - extend with `haku/next`
   - extends config
     - `haku/react`
+    - `next/core-web-vitals`
 
 ## 🦴 Setup Project
 

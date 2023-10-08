@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["./react.js", "plugin:prettier/recommended"],
+  extends: ["./react.js", "next/core-web-vitals", "plugin:prettier/recommended"],
 };
