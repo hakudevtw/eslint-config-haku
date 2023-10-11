@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakudevtw/eslint-config-haku"
+  },
   "scripts": {},
   "keywords": [
     "eslint",
