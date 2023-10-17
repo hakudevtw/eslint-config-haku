@@ -1,8 +1,9 @@
 {
   "name": "eslint-config-haku",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Custom Eslint config with airbnb",
   "main": "src/index.js",
+  "mainDir": "src",
   "type": "commonjs",
   "repository": {
     "type": "git",
