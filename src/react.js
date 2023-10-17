@@ -3,7 +3,18 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: ["airbnb", "airbnb-typescript", "./lib/base.js", "plugin:prettier/recommended"],
+  extends: [
+    "airbnb",
+    "airbnb/hooks",
+    "airbnb-typescript",
+    "./lib/base.js",
+    "plugin:prettier/recommended",
+  ],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
   rules: {
     "react/react-in-jsx-scope": "off",
     "react/jsx-uses-react": "off",
