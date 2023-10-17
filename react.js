@@ -4,10 +4,10 @@ module.exports = {
     node: true,
   },
   extends: [
+    "./lib/base.js",
     "airbnb",
     "airbnb/hooks",
     "airbnb-typescript",
-    "./lib/base.js",
     "plugin:prettier/recommended",
   ],
   parserOptions: {

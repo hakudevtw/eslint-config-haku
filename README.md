@@ -11,12 +11,13 @@
     - `plugin:prettier/recommended`
 - `eslint-config-haku/react` (react config)
   - extends config
-    - `haku`
+    - base config
     - `airbnb`
+    - `airbnb/hooks`
     - `airbnb-typescript`
 - `eslint-config-haku/next` (nextJS config)
   - extends config
-    - `haku/react`
+    - react config
     - `next/core-web-vitals`
 
 ## 🦴 Setup Project
@@ -55,10 +56,22 @@
 
 ## 🥑 Recipes
 
+### Linting with Type Information
+
+- Refer to https://typescript-eslint.io/linting/typed-linting
+- Add to `extend`
+  ```javascript
+  "extends": [
+    // ...
+    "haku/react",
+    "plugin:@typescript-eslint/recommended-type-checked"
+  ],
+  ```
+
 ### Redux
 
-- 參考 https://redux.js.org/usage/usage-with-typescript#define-typed-hooks
-- add rule to restrict using custom `useAppSelector` and `useAppDispatch` for typing
+- Refer to https://redux.js.org/usage/usage-with-typescript#define-typed-hooks
+- Add rule to restrict using custom `useAppSelector` and `useAppDispatch` for typing
   ```javascript
   "@typescript-eslint/no-restricted-imports": [
     "warn",
