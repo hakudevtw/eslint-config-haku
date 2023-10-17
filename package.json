@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-haku",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Custom Eslint config with airbnb",
   "main": "src/index.js",
   "type": "commonjs",
@@ -8,7 +8,6 @@
     "type": "git",
     "url": "git+https://github.com/hakudevtw/eslint-config-haku"
   },
-  "scripts": {},
   "keywords": [
     "eslint",
     "prettier",
@@ -36,6 +35,11 @@
     "prettier": ">=3.0.0",
     "@typescript-eslint/eslint-plugin": "^5.13.0 || ^6.0.0",
     "@typescript-eslint/parser": "^5.0.0 || ^6.0.0",
-    "eslint-plugin-import": "^2.28.0"
+    "eslint-plugin-import": "^2.28.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.1.0"
   }
 }
