@@ -6,6 +6,8 @@ module.exports = {
   extends: ["airbnb", "airbnb-typescript", "./lib/base.js", "plugin:prettier/recommended"],
   rules: {
     "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off",
+    "react/jsx-props-no-spreading": "off",
     "no-restricted-imports": [
       "error",
       {

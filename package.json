@@ -11,6 +11,7 @@
   "scripts": {},
   "keywords": [
     "eslint",
+    "prettier",
     "typescript",
     "react",
     "nextJS",
