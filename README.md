@@ -69,3 +69,9 @@
     },
   ],
   ```
+
+## 🍳 Trouble Shooting
+
+### Can't resolve paths alias in monorepo projects
+
+- Add [`eslint-import-resolver-typescript`](https://www.npmjs.com/package/eslint-import-resolver-typescript) plugin
