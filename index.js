@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["./lib/base.js", "plugin:prettier/recommended"],
+  extends: ["./lib/base.js", "prettier"],
 };
