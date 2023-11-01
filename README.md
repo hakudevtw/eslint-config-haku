@@ -1,24 +1,5 @@
 # 🍃 Haku's Eslint Config
 
-## 🫐 Packages
-
-- `eslint-config-haku` (base config)
-  - extends config
-    - `eslint:recommended`
-    - `plugin:@typescript-eslint/recommended`
-    - `plugin:import/recommended`
-    - `plugin:import/typescript`
-    - `plugin:prettier/recommended`
-- `eslint-config-haku/react` (react config)
-  - extends config
-    - `haku`
-    - `airbnb`
-    - `airbnb-typescript`
-- `eslint-config-haku/next` (nextJS config)
-  - extends config
-    - `haku/react`
-    - `next/core-web-vitals`
-
 ## 🦴 Setup Project
 
 ### Installation
