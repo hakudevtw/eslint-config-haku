@@ -14,7 +14,6 @@ module.exports = {
     "react/jsx-props-no-spreading": "off",
     "react/require-default-props": "off",
     "@typescript-eslint/no-use-before-define": "off",
-    "jsx-a11y/label-has-associated-control": "off",
 
     "import/extensions": [
       "error",
